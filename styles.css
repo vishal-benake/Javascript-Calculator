@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.094);
+}
+#container{
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.53);
+    font-family: "Arial, sans-serif";
+    background-color: rgba(0, 0, 0, 0.053);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+    height: auto;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsla(0, 0%, 0%, 0.265);
+}
+
+button{
+    height: 75px;
+    width: 75px;
+    border: none;
+    background-color: hsl(204, 8%, 75%);
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#operator{
+    background-color: hsl(31, 80%, 63%);
+}
+
+#operator:hover{
+    background-color: hsla(31, 80%, 63%, 0.749);
+}
+
+#operator:active{
+    background-color: hsla(31, 80%, 63%, 0.5);
+}
+
+#clear{
+    background-color: hsl(8, 93%, 66%);
+}
+
+#clear:hover{
+    background-color: hsla(8, 93%, 66%, 0.749);
+}
+
+#clear:active{
+    background-color: hsla(8, 93%, 66%, 0.5);
+}
+
+#answer{
+    background-color: hsl(141, 54%, 50%);
+}
+
+#answer:hover{
+    background-color: hsla(141, 54%, 50%, 0.749);
+}
+
+#answer:active{
+    background-color: hsla(141, 54%, 50%, 0.5);
+}
+
+button:hover{
+    background-color: hsl(204, 8%, 75%, 0.749);
+}
+
+button:active{
+    background-color: hsl(204, 8%, 75%, 0.5);
+}
+
+h3{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: "Arial, sans-serif";
+  font-size: 2rem;
+  font-weight: bold;
+}
